@@ -1,0 +1,37 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+
+# Logs
+*.log
+logs/
+debug.log
+
+# OS / Editor
+.DS_Store
+._.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Environment / Config
+.env
+.env.test
+
+._tsconfig.json
+._src
+._scripts
+._reports
+._package-lock.json
+._package.json
+._features
+._cucumber.cjs

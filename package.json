@@ -1,0 +1,29 @@
+{
+  "name": "opencart-pw-bdd-ts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "playwright install --with-deps",
+    "test:bdd": "cucumber-js --config cucumber.cjs",
+    "test:bdd:chromium": "cross-env BROWSER=chromium cucumber-js --config cucumber.cjs",
+    "test:bdd:firefox": "cross-env BROWSER=firefox cucumber-js --config cucumber.cjs",
+    "test:bdd:webkit": "cross-env BROWSER=webkit cucumber-js --config cucumber.cjs",
+    "test:bdd:with-report": "cucumber-js --config cucumber.cjs && node scripts/generate-report.cjs",
+    "report:html": "node scripts/generate-report.cjs",
+    "report:open": "npx http-server reports/html -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+  "@cucumber/cucumber": "^11.3.0",
+  "cross-env": "^10.0.0",
+  "http-server": "^14.1.1",
+  "multiple-cucumber-html-reporter": "^3.9.3",
+  "playwright": "^1.55.1",
+  "ts-node": "^10.9.2",
+  "typescript": "^5.9.2"
+  }
+}
