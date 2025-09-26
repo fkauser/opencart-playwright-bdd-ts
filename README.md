@@ -1,4 +1,4 @@
-# 🛒 OpenCart BDD Automation Framework
+# 🛒 OpenCart BDD Automation Framework - FAISAL KAUSER
 
 This project is an **end-to-end test automation framework** for the [OpenCart demo site](https://demo.opencart.com/).  
 It is built with:
@@ -15,7 +15,7 @@ It is built with:
 
 ```
 opencart-bdd/
-├── features/               # Gherkin feature files
+├── features/               # Gherkin feature files [Cucumber]
 │   ├── desktops.feature
 │   ├── laptops.feature
 │   └── phones.feature
